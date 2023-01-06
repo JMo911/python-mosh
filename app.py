@@ -263,5 +263,21 @@ for price in prices:
 # a, b, c = numbers
 # print(f'a: {a}, b: {b}, c: {c}')
 
+message = input(">")
+words = message.split(' ')
+emojis = {
+    ':)': '😀',
+    ':(': '☹️'
+}
+
+output = ''
+for word in words:
+    output += f'{emojis.get(word, word)} '
+    # if emojis.get(word):
+    #     output += f'{emojis.get(word)} '
+    # else:
+    #     output += f'{word} '
+print(output)
+
 
 
