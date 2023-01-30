@@ -5,6 +5,8 @@
 # first_name = "Mosh"
 # is_online = True
 import math
+from ecommerce import shipping
+# shipping.calc_shipping()
 
 # patient_first_name = "John"
 # patient_last_name = "Smith"
